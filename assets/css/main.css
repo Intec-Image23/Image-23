@@ -32,7 +32,9 @@ h6 {
 #main {
   margin-top: 90px;
 }
-
+.rounded-circle{
+  height: 200px;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -301,14 +303,16 @@ section {
   .navbar ul {
     display: none;
     position: absolute;
-    inset: 55px 15px 15px 15px;
-    padding: 10px 0;
-    margin: 0;
-    border-radius: 10px;
+    top: 0;
+    right: 0;
+    width: 300px;
     background-color: var(--color-white);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
+    height: 50vh;
+    list-style: none;
+    padding-left: 50px;
   }
 
   .navbar a,
@@ -363,6 +367,7 @@ section {
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
+    
   }
 
   .mobile-nav-toggle.bi-x {
@@ -1159,6 +1164,7 @@ padding: 5px 30px;
 border: none; 
 border-radius: 30px;
 font-weight: bold;
+
 }
 .reg:hover{
   padding: 5px 30px; 
@@ -1168,7 +1174,21 @@ font-weight: bold;
   background-color: orange;
       color: rgb(5, 5, 90);
   }
-
+  .reg1{
+    padding: 5px 30px; 
+    border: none; 
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: orange;
+    }
+    .reg1:hover{
+      padding: 5px 30px; 
+      border: none; 
+      border-radius: 30px;
+      font-weight: bold;
+      background-color: white;
+          color: rgb(5, 5, 90);
+      }
 .footer .footer-content {
   padding: 60px 0;
   background-color: rgb(73, 73, 73);

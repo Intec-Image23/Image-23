@@ -305,12 +305,12 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 250px;
     background-color: var(--color-white);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
-    height: 50vh;
+    height: 40vh;
     list-style: none;
     padding-left: 50px;
   }
